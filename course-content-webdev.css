@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+}
+header{
+    height: 60px;
+    line-height: 60px;
+    background-image: url('pics/bg.png');
+    opacity:0.9;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index: 1;
+    margin:0px;
+}
+
+.header-wrapper{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin:0px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}

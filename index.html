@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CodeCoach</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+    </head>
+    <body>
+        <!--Backround-->
+        <div class="bg-wrapper">
+            <!--Header-->
+            <header>
+                <div class="header-wrapper">
+                    <h1 class="logo">CodeCoach</h1>
+                    <p class="sign-up">Sign up</p>
+                    <p class="log-in">Log in</p>
+                </div>
+            </header>
+            <div class="introduction">
+                <div class="intro-wrapper">
+                    <div class="intro-heading-wrapper">
+                        <h1>LEARN TO CODE</h1>
+                        <h1>LEARN TO BE CREATIVE</h1>
+                    </div>
+                    <div class="intro-btn">
+                        <p class="btn signup">GET STARTED</p>
+                        <p class="btn login">I ALREADY HAVE AN ACCOUNT</p>
+                    </div>             
+                </div>
+            </div>
+        </div>
+        <!--Signup Modal-->
+        <div class="signup-modal-wrapper" id="signup-modal">
+            <div class="modal">
+              <div class="close-modal-signup">
+                <i class="fa fa-2x fa-times">×</i>
+              </div>
+              <div id="signup-form">
+                <h2>Sign up with email</h2>
+                <form action="#">
+                  <input class="form-control semail" type="text" placeholder="Email" />
+                  <input
+                    class="form-control spass"
+                    type="password"
+                    placeholder="Password"
+                  />
+                  <a href="first.html" id="signup-submit-btn">Sign up</a>
+                </form>
+              </div>
+            </div>
+        </div>
+
+        <!--Login Modal-->
+        <div class="login-modal-wrapper" id="login-modal">
+            <div class="modal">
+              <div class="close-modal-login">
+                <i class="fa fa-2x fa-times">×</i>
+              </div>
+              <div id="login-form">
+                    <h2>Login with email</h2>
+                    <form action="#">
+                        <input class="form-control lemail" type="text" placeholder="Email" />
+                        <input class="form-control lpass" type="password" placeholder="Password"/>
+                        <a href="first.html" id="login-submit-btn">Login</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Lesson-->
+        <div class="main">
+            <div class="main-wrapper">
+                <div class="heading">
+                    <h1>Learn Where to Get Started</h1>
+                    <p>Learning with CodeCoach is fun and addictive. Earn points for correct answers, race against the clock, and level up.</p>
+                </div>
+                <div class="lessons">
+                    <div class="lesson">
+                        <div class="lesson-wrapper">
+                            <div class="lesson-icon">
+                                <img src="pics/lesson-template3.jpg"/>
+                                <p class="child">HTML5 & CSS3</p>
+                            </div>
+                            <p class="text">Languages used to build and design the appearances of your websites. 
+                                HTML adds the structure, and CSS styles it.</p>
+                        </div>
+
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-wrapper">
+                            <div class="lesson-icon">
+                                <img src="pics/lesson-template3.jpg"/>
+                                <p class="child">PHP</p>
+                            </div>
+                            <p class="text">An open source scripting language that can be embedded into HTML,
+                                and well suited for web development.</p>
+                        </div>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-wrapper">
+                            <div class="lesson-icon">
+                                <img src="pics/lesson-template3.jpg"/>
+                                <p class="child">jQuery</p>
+                            </div>
+                            <p class="text">A fast, feature-rich and easy-to-use JavaScript library that
+                                handles animations and Ajax requests.</p>
+                        </div>
+                    </div>
+                    <div class="lesson">
+                        <div class="lesson-wrapper">
+                            <div class="lesson-icon">
+                                <img src="pics/lesson-template3.jpg"/>
+                                <p class="child">Ruby</p>
+                            </div>
+                            <p class="text">A dynamic, general-purpose language that is simple and productive.
+                                It is commonly used around the world to build web applications.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="features"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

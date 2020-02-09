@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+}
+body{
+    margin: 0px;
+}
+
+.bg-wrapper{
+    background-image: url('pics/backno-opacity.jpg.png');
+    background-size: cover;
+    
+}
+
+header{
+    height: 60px;
+    background-color: white;
+    opacity:0.8;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index: 1;
+}
+
+.header-wrapper, .footer-wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin: 0px;
+    float:left;
+    line-height: 60px;
+    height: 60px;      
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+footer{
+    margin-left:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity:0.9;
+    background-color: white;
+    margin:0px;
+}
+  
+.container{
+    margin:0px 40px 0px 40px;
+    padding:10px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.main-wrapper{
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.heading{
+    padding-top:100px;
+    padding-bottom:50px;
+    text-align:center;
+    font-family: cursive;
+}
+
+.lessons{
+    width:100%;
+    display:inline-block;
+    padding-bottom:30px;
+}
+
+.lesson{
+    float: left;
+    width:25%;
+    padding-bottom:20px;
+}
+
+.lesson-wrapper{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+}
+.lesson-icon{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lesson-icon img{
+    box-shadow: 4px 4px grey;
+}
+.lesson-icon p{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.lesson-icon:hover{
+    cursor: pointer;
+}
+
+.text{
+    margin: 0 auto;
+    width:80%;
+    margin-top:15px;
+    color: #b3aeb5;
+    font-size:12px;
+}
+
