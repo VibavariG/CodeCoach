@@ -18,4 +18,5 @@ Selection of each option shows the description of that course and what is involv
 ![](screenshots/CAPTURE7.png)
 
 If you want to stat the course, select how commited are you to the course and your daily goal, after which you'll be shown the course contents.
+
 ![](screenshots/CAPTURE8.png)
